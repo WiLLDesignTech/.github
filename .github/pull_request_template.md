@@ -14,22 +14,22 @@
 ## UI evidence
 
 <!--
-  Required when this PR changes UI-visible files or behavior. Attach a visible
-  before and after screenshot for every affected screen, route, state, or flow.
-  Use captions that identify the state and map each image to changed UI paths.
-  Update the images and headSha after every push. The bot verifies the current
-  commit, attachment URLs, file coverage, and image bytes.
+Required when the PR changes UI-visible files or behavior. Commit PNGs under
+.github/pr-review/evidence/ and include their paths below. The URL is display-only
+context; the reviewer reads committed bytes at the exact PR head. Update the
+headSha and paths after every push.
 -->
 
-- [ ] This PR has no UI-visible changes. (Context only; the bot decides whether evidence is required.)
-- [ ] For UI changes, visible before and after screenshots are attached below for every affected UI path.
-- [ ] The screenshot captions and path mappings describe the latest commit.
+- [ ] PR has no UI-visible changes. (Context only; the bot decides whether evidence is required.)
+- [ ] UI changes have committed before/after screenshots listed below with display URLs.
+- [ ] Screenshot captions and path mappings describe the latest commit.
+<!-- Store screenshots at .github/pr-review/evidence/<descriptive-name>.png. Keep the PNGs in this PR. -->
 
 | State | Screenshot | Caption | Changed UI path(s) |
 | --- | --- | --- | --- |
-| Before | Attach image here | Before — describe the unchanged state | `path/to/changed-ui-file` |
-| After | Attach image here | After — describe the resulting state | `path/to/changed-ui-file` |
+| Before | Display URL + `.github/pr-review/evidence/before-<name>.png` | Before — describe unchanged state | `path/to/changed-ui-file` |
+| After | Display URL + `.github/pr-review/evidence/after-<name>.png` | After — describe resulting state | `path/to/changed-ui-file` |
 
 <!-- pr-review:image-evidence
-{"schemaVersion":1,"headSha":"<40 lowercase hex>","screenshots":[{"url":"<GitHub attachment URL>","caption":"<what changed>","uiPaths":["<changed UI path>"]}]}
+{"schemaVersion":1,"headSha":"<40 lowercase hex>","screenshots":[{"path":".github/pr-review/evidence/<name>.png","url":"<GitHub display URL>","caption":"<what changed>","uiPaths":["<changed UI path>"]}]}
 -->
