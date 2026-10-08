@@ -7,7 +7,7 @@
 ## Change
 
 - What changed and why:
-- Related issue or task:
+- Jira: <!-- e.g. WRDS-123. Put the key in the PR title too (`fix(WRDS-123): ...`) and in the branch name (`fix/WRDS-123-short-slug`) so the PR shows on the ticket. List every key if the PR covers several. -->
 - Validation performed:
 - Risk or rollout notes:
 
