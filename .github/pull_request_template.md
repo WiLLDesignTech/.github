@@ -7,7 +7,7 @@
 ## Change
 
 - What changed and why:
-- Related issue or task:
+- Jira: <!-- The ticket key from whichever Jira project owns the work, e.g. ABC-123. Put it in the PR title too (`fix(ABC-123): ...`) and in the branch name (`fix/ABC-123-short-slug`) so the PR shows on the ticket. List every key if the PR covers several. -->
 - Validation performed:
 - Risk or rollout notes:
 
